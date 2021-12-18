@@ -1,0 +1,469 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: Arial ;
+	background: #eee;
+/*	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background: url(images/banner.jpg);*/
+
+
+}
+
+header{
+
+	position:relative;
+
+	background:#32393d;
+    padding: 10px 7%;
+	box-sizing: border-box;
+	/*border-radius: 4px;*/
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+
+
+}
+
+.logo{
+	color:#2980b9;
+	height: 50px;
+	font-size: 30px;
+	line-height: 60px;
+	padding: 0 20px;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+	font-weight: 700;
+	text-decoration: none;
+	color: white;
+}
+
+
+/*nav{
+	float:right;
+}*/
+.clearfix{
+	clear: both;
+}
+
+nav ul{
+	margin: 0;
+	padding:0;
+	display: flex;
+	float: right;
+}
+
+nav ul li {
+	list-style: none;
+
+}
+nav ul li a{
+
+	display:block;
+	margin:10px 2px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: 550;
+	color:#eee;
+
+
+}
+
+nav ul li a.active{
+	color:#e74c3c;
+	font-weight: 700;
+}
+
+nav ul li a:hover{
+	color:yellow;
+	transition: 0.5s;
+
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////This is Hamburger Menu for Mobile///////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+label{
+	margin: 0 10px 0 0;
+	font-size: 26px;
+	display: none; 
+	cursor: pointer;
+	padding-top: 10px;
+	float: right;
+	width: 26px;
+	color: white;
+}
+
+label:hover{
+	color:yellow;
+}
+#toggle{
+	display: none;
+
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+.banner{
+		max-width: auto;
+		margin: 0 auto;
+		color: white;
+		font-size: 150%;
+		text-shadow: 2px 2px 2px #111;
+		font-family: Arial;
+		transition: 1s;
+		background:#32393d;
+}
+.banner-image{
+	width: 100%;
+	padding:16% 0;
+	background:url(images/alfred.png);
+	background-size: cover;
+
+}
+
+.banner-image h1{
+	margin-top: -10px;
+	margin-bottom: 10px;
+	margin-left:15%;
+}
+.fontsmall{
+	color: #e74c3c;	
+	font-size: 20px;
+	text-shadow: 0px 0px 1px #111;
+}
+.fontlarge{
+	color: #eee;
+	font-size: 50px;
+}
+
+.descFont{
+	font-size: 22px;
+	padding: 5px 0; 
+	text-shadow: 0px 0px 0px #111;
+	color: #eee;
+	font-kerning: none;
+	font-family: Calibri;
+
+
+}
+
+h2{
+	font-size: 30px;
+	color: #e74c3c;
+	text-align: center;
+
+}
+h5{
+	font-size: 22px;
+	color: #333;
+	text-align: center;
+	margin: 5px;
+
+}
+
+#facility{
+	color: white;
+}
+
+#about{
+	text-align: justify;
+}
+.info{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.aboutClass{
+	background: #EEE;
+	font-family:Arial;
+	font-size: 20px;
+}
+
+.w3-border{
+	background-color: #ddd;
+	background: #ccc
+	height: 25px;
+}
+.w3-grey{
+	background: #2ecc71;
+	text-align: center;
+	padding: 3px;
+	color: white;
+}
+
+.txtTitle{
+	float: left;
+	color: #e74c3c;	
+	font-size: 20px;
+	text-shadow: 0px 0px 1px #111;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////This is the BODY///////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+#content{
+	margin-right: 10%;
+	margin-left:10%;
+	margin-bottom: 5%
+
+
+}
+#content #section1 .images-container{
+	display: flex;
+
+
+}
+
+#content #section1 .box{
+
+	flex: 20%;
+	margin: 10px;
+	border: 10px solid #fff;
+	box-shadow: 4px 3px 14px 1px rgba(171,171,171,1);
+	background-color: #fff;
+	height: auto;
+	padding: 10px;
+
+}
+
+#content #section1 .box img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#content #section1 .box p{
+	text-align: center;
+	margin: 5px 0px 5px 0px; 
+
+}
+/*////////////////////////////////////////////////////////////////////////////////////*/
+#content2{
+	background-color: #32393d;
+	padding: 10px;
+	padding-bottom: 50px;
+	text-align: center;
+
+}
+#content2 a{
+	text-decoration: none;
+}
+#content2 #section2 .images-container{
+	display: flex;
+
+	background-color: #32393d;
+	padding:10px 0 30px 0; 
+}
+#content2 #section2 .box{
+	flex: 20%;
+	margin: 10px;
+	border: 10px solid #eee;
+	box-shadow: 4px 3px 14px 1px rgba(101,101,101,.8);
+	background-color: #eee;
+}
+
+#content2 #section2 .box img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.groufie img{
+	width: 100%;
+}
+
+ .viewClick{
+/*	position: absolute;
+	margin-left: -180px;
+	margin-top: 90px;*/
+	padding: 10px 50px;
+	font-size: 100%;
+	color: #fff;
+	background-color: rgba(20,100,255,.5);
+	cursor: pointer;
+}
+.viewClick:hover{
+	background-color: rgba(0,0,0,.4);
+}
+.contactForm{
+	background:url(images/img1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10px;
+	padding-bottom: 8%;
+}
+.contactForm{
+	text-align: center;
+}
+.contactForm #contactTitle{
+	color:#fff;
+}
+#contactTitle h2{
+	color:#fff;
+	margin-top: 8%;
+	line-height: 10px;
+}
+#contactTitle h3{
+	font-size: 16px;
+}
+form{
+	margin-top: 50px;
+}
+.form-control{
+	width: 600px;
+	background:transparent;
+	border:2px solid #00aaff ;
+	box-shadow:  1px 1px 5px 1px #00aaff;
+	color: white;
+	font-size:18px;
+	margin-bottom: 16px;
+	padding-left: 10px;
+}
+.form-control:hover{
+	box-shadow:  1px 1px 10px 1px #fff;
+	border:2px solid #fff ;
+}
+
+input{
+	height: 45px;
+}
+form .submit{
+
+	transition: 1s ease;
+	box-shadow: none;
+	background-color: #ff5722;
+	border-color: transparent;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 20px;
+	height: 50px;
+	margin-top: 20px;
+	font-family: 
+}
+form .submit:hover{
+
+	box-shadow: none;
+	transition: 1s ease;
+	background-color:#2970cc;
+	cursor:pointer;
+	border: none;
+
+}
+footer{
+	height: 350px;
+	background-color: #eee;
+	padding-top: 10px;
+	text-align: center;	
+	font-size: 16px;
+}
+.topFoot{
+	width: 100%;
+	height: 75%;
+	background-color: #eee;
+}
+
+.iconFoot{
+	color: blue;
+}
+
+.botFoot{
+	width: 100%;
+	height: 20%;
+	background-color:#2980b9;
+	padding-top: 8px;
+	color:white;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////Facility Section///////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+#contentFacility{
+	background-color: #fff;
+	padding: 10px;
+	padding-bottom: 50px;
+	text-align: center;
+
+}
+#contentFacility a{
+	text-decoration: none;
+}
+#contentFacility #sectionFacility .images-container{
+	display: flex;
+	background-color: #fff;
+	padding:20px 0 20px 0; 
+}
+#contentFacility #sectionFacility .box{
+	flex: 33.33%;
+	margin: 10px;
+	border: 10px solid #2980b9;
+	box-shadow: 4px 3px 14px 1px rgba(171,171,171,1);
+	background-color: white;
+}
+
+#contentFacility #sectionFacility .box img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#contentLesson{
+	background-color: white;
+	padding: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+#contentLesson a{
+	text-decoration: none;
+}
+.aboutClirdec{
+	margin-top:70px; 
+	background-color: #ff5722;
+	padding-bottom: 20px;
+}
+.aboutClirdec h2{
+	padding-top: 20px;
+	color: white;
+}
+.aboutClirdec p{
+	color: white;
+	text-align: center;
+}
+
+
+
+
+#footer{
+	background-color: #32393d;
+	height:360px;
+	color: white;
+	margin: 0;
+}
+
+#footerLogo a{
+	font-size: 50px;
+	padding: 50px 100px 150px 150px;
+	width: 450px;
+	float: left;
+}
+
+#latestUpdate{
+	float: left;
+}
+
+h4{
+	margin: 0;
+	padding-top: 50px;
+	font-size: 20px;
+}
+#latestUpdate p, #quickLinks p, #keepConnected p{
+	padding-left: 20px;
+}
+
+#quickLinks, #keepConnected{
+	float: left;
+	margin-left:100px; 
+}
+
+#allRight p{
+	clear: both;
+	text-align: center;
+}
